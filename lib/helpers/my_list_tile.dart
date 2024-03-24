@@ -15,7 +15,7 @@ class MyListTile extends StatelessWidget {
     required this.title,
     required this.subtitle,
     required this.imageUrl,
-    this.selected = false,
+    required this.selected,
     this.onTap,
   });
 
